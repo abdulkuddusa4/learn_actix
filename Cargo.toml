@@ -1,0 +1,21 @@
+[package]
+name = "learn_actix"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+
+migration = {path="migration"}
+
+actix-web = "4"
+tokio = { version = "1", features = ["full"] }
+sea-orm = {version = "2.0.0-rc", features = [
+	"sqlx-sqlite", "runtime-tokio-rustls", "macros",
+	"schema-sync", "entity-registry"
+	] }
+
+sea-orm-migration = "~2.0.0-rc"
+
+
+
