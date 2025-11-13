@@ -1,1 +1,0 @@
-/home/roni/learn_actix/migration/target/debug/migration: /home/roni/learn_actix/migration/src/lib.rs /home/roni/learn_actix/migration/src/m20220101_000001_create_table.rs /home/roni/learn_actix/migration/src/main.rs
