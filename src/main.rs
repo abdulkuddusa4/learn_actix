@@ -4,7 +4,7 @@ use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
 use tokio;
 use sea_orm::{Database, DatabaseConnection, ActiveValue, ActiveModelTrait};
 
-use migration::{Migrator, MigratorTrait};
+// use migration::{Migrator, MigratorTrait};
 
 
 fn print_type_of<T>(obj: &T){

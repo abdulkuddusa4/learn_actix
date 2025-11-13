@@ -6,7 +6,7 @@ DATABASE_URL="sqlite://db.sqlite?mode=rwc"
 run_dev = [
     "watch",
     "-w", "src/",
-    "-w", "migration/",
+    # "-w", "migration/",
     "-w", "Cargo.toml",
     "-x", "run",
     # "-s", "cargo run -- -l 8888",
